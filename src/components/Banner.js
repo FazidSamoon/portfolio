@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Header from './Header'
 import TypeWriter from 'typewriter-effect';
 import Particles from "react-tsparticles";
@@ -8,6 +8,29 @@ import { FaFacebookF , FaInstagram } from "react-icons/fa";
 import { SiHackerrank } from "react-icons/si";
 
 function Banner() {
+
+  useEffect(() => {
+    const elems = []
+    elems.push(document.querySelector(".Typewriter"))
+    elems.push(document.querySelector(".Typewriter__wrapper"))
+    elems.forEach(elem => {
+      elem.style.height = '5rem'
+      elem.style.display = 'flex'
+      elem.style.alignItems = 'center'
+      elem.style.justifyContent = 'center'
+    })
+
+    const cursor = document.querySelector('.Typewriter__cursor')
+
+    const particles = document.querySelector('#tsparticles > canvas')
+    particles.style.position = 'absolute'
+    particles.style.top = '0'
+    particles.style.left = '0'
+    particles.style.width = '100%'
+    particles.style.height = '100%'
+    
+
+  }, [])
 
   const particlesInit = async (main) => {
     console.log(main);
@@ -19,18 +42,18 @@ function Banner() {
   };
   return (
     <span>
-      <div className='banner- relative bg-gradient-to-tr from-[#030325] via-[#040436] to-[#33336d] h-screen w-screen'>
+      <div className='banner bg-gradient-to-tr from-[#030325] via-[#040436] to-[#33336d] h-screen w-screen'>
         <Header /> 
 
         <div className='absolute flex z-0 bg-radial-at-b from-black via-black to-orange-800
-              laptop:items-center laptop:justify-center laptop:w-2/3 laptop:h-[100%] laptop:transform laptop:translate-x-52 laptop:translate-y-[0rem] 
+              lg:items-center lg:justify-center lg:w-2/3 lg:h-[100%] lg:transform lg:translate-x-52 lg:translate-y-[0rem] 
               mobile:
               tablet:
               desktop:
         '>
           <img src='fazid.png' alt='' 
           className=' opacity-60 brightness-50 h-[30rem] bg-black
-                    laptop:h-[35rem] laptop:transform laptop:translate-y-10
+                    lg:h-[35rem] lg:transform lg:translate-y-10
                     mobile:
                     tablet:
                     desktop:
@@ -38,17 +61,14 @@ function Banner() {
         </div>
 
         <div className='
-                        relative flex flex-col w-screen justify-center  z-40
-                        laptop:items-center laptop:pt-[300px]
-                        tablet: 
-                        mobile:
-                        
+                        relative flex flex-col w-screen justify-center z-40
+                        lg:items-center lg:pt-[300px]          
         '>
           <div>
             <h1 className='text-white font-serif  
                     mobile:text-2xl   
                     tablet:
-                    laptop:text-2xl laptop:font-extrabold laptop:bg-red-500 laptop:h-[3rem]
+                    lg:text-2xl lg:font-extrabold lg:bg-red-500 
                     desktop:text-[4rem]
             '>
               <TypeWriter
@@ -88,9 +108,9 @@ function Banner() {
           </a>
         </div>
 
-        <div>
+        <div >
         <Particles 
-            className='absolute'
+            className=''
             id="tsparticles"
             init={particlesInit}
             loaded={particlesLoaded}

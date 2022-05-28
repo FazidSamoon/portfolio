@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
   return (
     <div className=' w-screen h-screen bg-slate-300 flex justify-center items-center
-                  laptop:flex-row laptop:px-10 laptop:py-10
+                  lg:flex-row lg:px-10 lg:py-10
                   tablet:flex-row
                   mobile:flex-col
     '>
