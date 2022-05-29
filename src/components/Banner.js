@@ -68,7 +68,7 @@ function Banner() {
             <h1 className='text-white font-serif  
                     mobile:text-2xl   
                     tablet:
-                    lg:text-2xl lg:font-extrabold lg:bg-red-500 
+                    lg:text-4xl lg:font-extrabold lg:bg-red-500 
                     desktop:text-[4rem]
             '>
               <TypeWriter
@@ -83,7 +83,7 @@ function Banner() {
           </div>
           
           <div>
-            <h1 className='text-white relative mt-8 text-xl font-bold z-40'>
+            <h1 className='text-white relative mt-4 text-xl font-bold z-40'>
               I am a Software Engineer undergraduate based in Colombo, Sri Lanka.
             </h1>
           </div>                  

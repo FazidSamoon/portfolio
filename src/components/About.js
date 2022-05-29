@@ -8,12 +8,22 @@ function About() {
                   mobile:flex-col
     '>
 
-      <div className=' bg-red-600 w-1/3 h-full'>
-
+      <div className='flex justify-center bg-red-600 w-1/3 h-full'>
+        <img src='fazid.png' alt='' className=' h-24 w-24 bg-[#361494] rounded-full object-contain
+                 lg:w-32 lg:h-32 lg:mt-10
+        ' />
       </div>
 
-      <div className=' bg-blue-600 w-2/3 h-full'>
-        
+      <div className=' bg-blue-600 w-2/3 h-full
+                  
+      '>
+        <div className='
+              lg:mt-4 lg:ml-10 
+        '>
+          <h1 className=''>Name : <span>Tuan Fazid Samoon</span></h1>
+        </div>
+          
+
       </div>
         
     </div>
