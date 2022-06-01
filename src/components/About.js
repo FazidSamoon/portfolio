@@ -2,28 +2,32 @@ import React from 'react'
 
 function About() {
   return (
-    <div className=' w-screen h-screen bg-slate-300 flex justify-center items-center
-                  lg:flex-row lg:px-10 lg:py-10
+    <div className=' w-screen h-screen bg-[#051630] flex justify-center items-center
+                  lg:flex-col lg:px-10 lg:py-10
                   tablet:flex-row
                   mobile:flex-col
     '>
 
-      <div className='flex justify-center bg-red-600 w-1/3 h-full'>
-        <img src='fazid.png' alt='' className=' h-24 w-24 bg-[#361494] rounded-full object-contain
-                 lg:w-32 lg:h-32 lg:mt-10
-        ' />
-      </div>
+      <div className='w-full h-full flex flex-col'>
+        <div className='w-full h-[7rem]'>
+          <h1 className='text-[#ffffff] lg:text-4xl lg:font-semibold lg:ml-12'>About Me</h1>
 
-      <div className=' bg-blue-600 w-2/3 h-full
-                  
-      '>
-        <div className='
-              lg:mt-4 lg:ml-10 
-        '>
-          <h1 className=''>Name : <span>Tuan Fazid Samoon</span></h1>
+          <div className=' w-full  flex justify-center'>
+
+                         
+              <a href='/' className='text-[#ffffff] text-small mr-12 font-medium font-serif cursor-pointer'>ABOUT</a>
+              <a href='/' className='text-[#ffffff] text-small mr-12 font-medium font-serif cursor-pointer'>SKILLS</a>
+              <a href='/' className='text-[#ffffff] text-small mr-12 font-medium font-serif cursor-pointer'>EDUCATION</a>
+              <a href='/' className='text-[#ffffff] text-small mr-12 font-medium font-serif cursor-pointer'>BACKGROUND</a>
+
+          </div>
+
         </div>
-          
 
+        <div className='w-full h-full bg-black'>
+
+        </div>
+      
       </div>
         
     </div>

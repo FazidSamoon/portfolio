@@ -9,93 +9,41 @@ import { SiHackerrank } from "react-icons/si";
 
 function Banner() {
 
-  useEffect(() => {
-    const elems = []
-    elems.push(document.querySelector(".Typewriter"))
-    elems.push(document.querySelector(".Typewriter__wrapper"))
-    elems.forEach(elem => {
-      elem.style.height = '5rem'
-      elem.style.display = 'flex'
-      elem.style.alignItems = 'center'
-      elem.style.justifyContent = 'center'
-    })
-
-    const cursor = document.querySelector('.Typewriter__cursor')
-
-    const particles = document.querySelector('#tsparticles > canvas')
-    particles.style.position = 'absolute'
-    particles.style.top = '0'
-    particles.style.left = '0'
-    particles.style.width = '100%'
-    particles.style.height = '100%'
-    
-
-  }, [])
-
-  const particlesInit = async (main) => {
-    console.log(main);
-    await loadFull(main);
-  };
-
-  const particlesLoaded = (container) => {
-    console.log(container);
-  };
   return (
     <span>
-      <div className='banner bg-gradient-to-tr from-[#030325] via-[#040436] to-[#33336d] h-screen w-screen'>
+      <div className='banner bg-[#022038] h-screen w-screen'>
         <Header /> 
 
-        <div className='absolute flex z-0 bg-radial-at-b from-black via-black to-orange-800
-              lg:items-center lg:justify-center lg:w-2/3 lg:h-[100%] lg:transform lg:translate-x-52 lg:translate-y-[0rem] 
-              mobile:
-              tablet:
-              desktop:
-        '>
-          <img src='fazid.png' alt='' 
-          className=' opacity-60 brightness-50 h-[30rem] bg-black
-                    lg:h-[35rem] lg:transform lg:translate-y-10
-                    mobile:
-                    tablet:
-                    desktop:
-          '/>
-        </div>
+        
+            <div className=''>
+                <div className='absolute flex z-0 
+                        lg:items-center lg:justify-center lg:w-auto lg:h-[30rem]  lg:transform lg:translate-x-[65rem] lg:translate-y-[10rem] lg:border-4 lg:rounded-tl-3xl lg:rounded-br-3xl
+                        sm:trsnsform mobile:translate-x-12 mobile:translate-y-12 mobile:border-4 mobile:rounded-tl-3xl mobile:rounded-br-3xl
+                        tablet:
+                        desktop:
+                  '>
+                    <img src='fazid.png' alt='' 
+                    className='h-[20rem] bg-[#051630]
+                              lg:h-[30rem] lg:transform lg:translate-y-0
+                              sm:transform 
+                              tablet:
+                              desktop:
+                    '/>
+                  </div>
+            </div>
+              
 
-        <div className='
-                        relative flex flex-col w-screen justify-center z-40
-                        lg:items-center lg:pt-[300px]          
-        '>
-          <div>
-            <h1 className='text-white font-serif  
-                    mobile:text-2xl   
-                    tablet:
-                    lg:text-4xl lg:font-extrabold lg:bg-red-500 
-                    desktop:text-[4rem]
-            '>
-              <TypeWriter
-                    onInit={(typewriter) => {
-                      typewriter.typeString("I'm Fazid Samoon!")
+
+        <div className='flex flex-col absolute items-center w-16 h-44 
+        
+                        lg:transform translate-x-6 lg:translate-y-[30rem]
                         
-                      .start();
-                    }}
-              ></TypeWriter>
-            </h1> 
-
-          </div>
-          
-          <div>
-            <h1 className='text-white relative mt-4 text-xl font-bold z-40'>
-              I am a Software Engineer undergraduate based in Colombo, Sri Lanka.
-            </h1>
-          </div>                  
-        </div>
-
-
-        <div className='flex flex-col absolute bg-black items-center w-16 h-44 transform translate-x-6 -translate-y-2'>
+                        '>
           <a href='https://github.com/FazidSamoon'>
             <AiFillGithub className='text-white text-2xl font-bold mt-1' />
           </a>
           <a href='#'>
-            <FaFacebookF className='text-white text-2xl font-bold mt-2' />
+            <FaFacebookF className='text-white text-2xl font-bold mt-2 shadow-2xl' />
           </a>
           <a href='www.linkedin.com/in/fazid-samoon'>
             <AiFillLinkedin className='text-white text-2xl font-bold mt-2' />
@@ -106,91 +54,51 @@ function Banner() {
           <a href='#'>
             <FaInstagram className='text-white text-2xl font-bold mt-2' />
           </a>
+        </div> 
+
+        <div className='
+                        absakute flex flex-col w-screen justify-center z-40
+                        lg: items-start lg:pt-[300px] lg: ml-40 
+                        mobile:transform mobile:translate-x-0      
+        '>
+          <div>
+            <h1 className='text-white font-serif  
+                    mobile:text-2xl  
+                    tablet:
+                    lg:text-4xl lg:font-extraboldlg:max-w-[35rem] lg:transition-all lg:ease-in-out lg:duration-300
+                    desktop:text-[4rem]
+            '>
+              <TypeWriter
+                    onInit={(typewriter) => {
+                      typewriter.typeString("Hello! <br> I'm Fazid Samoon!")
+                      .pauseFor(2500)
+                      .typeString('<br>I am a <strong><span style="color: #27ae60;"> Software Engineering Undergraduate</span> </strong>')
+                      .pauseFor(300)
+                      .deleteChars(35)
+                      .typeString('<strong><span style="color: #27ae60;">Full Stack Developer</span></strong><br>')
+                      .typeString('<strong>based in<span style="color: #27ae60;"> Colombo , Sri Lanka</span></strong>')
+                      .pauseFor(1000)
+                      .start()
+                        
+                      .start(); 
+                      
+                    }}
+              ></TypeWriter>
+            </h1> 
+
+          </div>
+{/*           
+          <div>
+            <h1 className='text-white relative mt-4 text-xl font-bold z-40'>
+              I am a Software Engineer undergraduate based in Colombo, Sri Lanka.
+            </h1>
+          </div>                   */}
         </div>
 
-        <div >
-        <Particles 
-            className=''
-            id="tsparticles"
-            init={particlesInit}
-            loaded={particlesLoaded}
-            options={{
-              
-              fpsLimit: 100,
-              interactivity: {
-                events: {
-                  onClick: {
-                    enable: true,
-                    mode: "push",
-                  },
-                  onHover: {
-                    enable: true,
-                    mode: "repulse",
-                  },
-                  resize: true,
-                },
-                modes: {
-                  push: {
-                    quantity: 4,
-                  },
-                  repulse: {
-                    distance: 200,
-                    duration: 0.4,
-                  },
-                },
-              },
-              particles: {
-                color: {
-                  value: "#ffffff",
-                },
-                links: {
-                  color: "#ffffff",
-                  distance: 150,
-                  enable: true,
-                  opacity: 0.3,
-                  width: 1,
-                },
-                collisions: {
-                  enable: true,
-                },
-                move: {
-                  direction: "none",
-                  enable: true,
-                  outModes: {
-                    default: "bounce",
-                  },
-                  random: false,
-                  speed: 1,
-                  straight: false,
-                },
-                number: {
-                  density: {
-                    enable: true,
-                    area: 800,
-                  },
-                  value: 80,
-                },
-                opacity: {
-                  value: 0.5,
-                },
-                shape: {
-                  type: "circle",
-                },
-                size: {
-                  value: { min: 1, max: 5 },
-                },
-              },
-              detectRetina: true,
-            }}
-          />
 
-        </div>
+          
         
-        
-        
-        
-    </div>
-
+      </div>
     </span>
     
   )
