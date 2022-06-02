@@ -11,7 +11,7 @@ function Banner() {
 
   return (
     <span>
-      <div className='banner bg-[#022038] h-screen w-screen'>
+      <div className='banner bg-[#0a192f] h-screen w-screen'>
         <Header /> 
 
         
@@ -34,65 +34,54 @@ function Banner() {
               
 
 
-        <div className='flex flex-col absolute items-center w-16 h-44 
+        <div className='flex flex-col absolute items-center w-16 h-[13rem] 
         
                         lg:transform translate-x-6 lg:translate-y-[30rem]
                         
                         '>
           <a href='https://github.com/FazidSamoon'>
-            <AiFillGithub className='text-white text-2xl font-bold mt-1' />
+            <AiFillGithub className='text-[#58dfc3] text-2xl font-bold mt-1' />
           </a>
           <a href='#'>
-            <FaFacebookF className='text-white text-2xl font-bold mt-2 shadow-2xl' />
+            <FaFacebookF className='text-[#58dfc3] text-2xl font-bold mt-4 shadow-2xl' />
           </a>
           <a href='www.linkedin.com/in/fazid-samoon'>
-            <AiFillLinkedin className='text-white text-2xl font-bold mt-2' />
+            <AiFillLinkedin className='text-[#58dfc3] text-2xl font-bold mt-4' />
           </a>
           <a href='https://www.hackerrank.com/it21084690#'>
-            <SiHackerrank className='text-white text-2xl font-bold mt-2' />
+            <SiHackerrank className='text-[#58dfc3] text-2xl font-bold mt-4' />
           </a>
           <a href='#'>
-            <FaInstagram className='text-white text-2xl font-bold mt-2' />
+            <FaInstagram className='text-[#58dfc3] text-2xl font-bold mt-4' />
           </a>
         </div> 
 
         <div className='
                         absakute flex flex-col w-screen justify-center z-40
-                        lg: items-start lg:pt-[300px] lg: ml-40 
+                        lg: items-start lg:pt-[190px] lg: ml-40 
                         mobile:transform mobile:translate-x-0      
         '>
           <div>
-            <h1 className='text-white font-lobster 
-                    mobile:text-2xl  
-                    tablet:
-                    lg:text-4xl lg:font-extraboldlg:max-w-[35rem] lg:transition-all lg:ease-in-out lg:duration-300
-                    desktop:text-[4rem]
-            '>
-              <TypeWriter
+
+            <h1 className='font-mono font-medium text-[2rem] tracking-wider text-gray-400'>Hello There! My name is <span className='font-mono text-[40px] font-extrabold text-[#58dfc3]'>,</span></h1>
+            <h1 className='font-mono text-[80px] font-extrabold text-[#58dfc3]'>Fazid Samoon</h1>
+            <h1 className='font-mono text-[60px] font-extrabold opacity-60'>
+                <TypeWriter
                     onInit={(typewriter) => {
-                      typewriter.typeString("Hello! <br> I'm Fazid Samoon!")
-                      .pauseFor(2500)
-                      .typeString('<br>I am <strong><span style="color: #27ae60;">an Undergraduate</span> </strong>')
+                      typewriter.pauseFor(1000)
+                      .typeString("<strong><span style='color: #58dfc3;'>an Undergraduate</span></strong>")
                       .pauseFor(300)
-                      .deleteChars(17)
-                      .typeString('<strong><span style="color: #27ae60;">a Full Stack Developer</span></strong><br>')
-                      .typeString('<strong>based in<span style="color: #27ae60;"> Colombo , Sri Lanka</span></strong>')
+                      .deleteChars(16)
+                      .typeString('<span style="color: #58dfc3;">a Full Stack Developer</span>')
                       .pauseFor(1000)
-                      .start()
-                        
-                      .start(); 
+                      .start();
                       
                     }}
-              ></TypeWriter>
-            </h1> 
+                />  
+            </h1>
+            
 
           </div>
-{/*           
-          <div>
-            <h1 className='text-white relative mt-4 text-xl font-bold z-40'>
-              I am a Software Engineer undergraduate based in Colombo, Sri Lanka.
-            </h1>
-          </div>                   */}
         </div>
 
 

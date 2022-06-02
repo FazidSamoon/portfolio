@@ -5,6 +5,7 @@ module.exports = {
     fontFamily: {
       'lobster': ['lobster', 'cursive'],
       'DancingScript': ['Dancing Script', 'cursive'],
+      'KdamThmorPro' : ['Kdam Thmor Pro', 'sans-serif'],
     }
 
 
