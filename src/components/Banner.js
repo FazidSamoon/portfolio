@@ -62,7 +62,7 @@ function Banner() {
                         mobile:transform mobile:translate-x-0      
         '>
           <div>
-            <h1 className='text-white font-serif  
+            <h1 className='text-white font-lobster 
                     mobile:text-2xl  
                     tablet:
                     lg:text-4xl lg:font-extraboldlg:max-w-[35rem] lg:transition-all lg:ease-in-out lg:duration-300
@@ -72,10 +72,10 @@ function Banner() {
                     onInit={(typewriter) => {
                       typewriter.typeString("Hello! <br> I'm Fazid Samoon!")
                       .pauseFor(2500)
-                      .typeString('<br>I am a <strong><span style="color: #27ae60;"> Software Engineering Undergraduate</span> </strong>')
+                      .typeString('<br>I am <strong><span style="color: #27ae60;">an Undergraduate</span> </strong>')
                       .pauseFor(300)
-                      .deleteChars(35)
-                      .typeString('<strong><span style="color: #27ae60;">Full Stack Developer</span></strong><br>')
+                      .deleteChars(17)
+                      .typeString('<strong><span style="color: #27ae60;">a Full Stack Developer</span></strong><br>')
                       .typeString('<strong>based in<span style="color: #27ae60;"> Colombo , Sri Lanka</span></strong>')
                       .pauseFor(1000)
                       .start()
