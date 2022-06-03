@@ -22,16 +22,16 @@ function Banner() {
           data-aos-offset="100"
           src="fazidlogo.png"
           alt=""
-          className="absolute h-[10rem] sm:h-[15rem] lg:h-[26rem] xl:h-[27rem] lg:right-0 lg:top-10 xl:top-24  xl:right-0 animate-pulse px-14 mt-20"
+          className="absolute h-[15rem] sm:h-[15rem] lg:h-[26rem] xl:h-[27rem] top-28 md:top-32 lg:right-0 lg:top-10 xl:top-24  xl:right-0 animate-pulse px-14 "
         />
 
-        <div className="absolute flex flex-row lg:flex-col w-[13rem] h-[3rem] lg:h-[13rem] lg:w-[3rem] items-center justify-center bottom-3 lg:bottom-2 lg:left-4 xl:left-5 ">
+        <div className="absolute z-20 flex flex-row lg:flex-col w-[13rem] h-[3rem] lg:h-[13rem] lg:w-[3rem] items-center justify-center bottom-3 lg:bottom-2 lg:left-4 xl:left-5 ">
           <a href="https://github.com/FazidSamoon">
             <AiFillGithub
               data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-offset="100"
-              className="text-[#58dfc3] text-2xl font-bold my-2 mr-2"
+              className="text-[#58dfc3] text-2xl font-bold my-2 mr-2 cursor-pointer z-100"
             />
           </a>
           <a href="#">
@@ -68,8 +68,8 @@ function Banner() {
           </a>
         </div>
 
-        <div className="flex flex-col w-screen justify-center  z-40 sm:mt-11 ">
-          <div className="flex flex-col justify-center text-center lg:text-left w-full translate-y-24 lg:translate-y-0 lg:ml-20">
+        <div className="flex flex-col w-screen h-full justify-center  z-10 sm:mt-11 ">
+          <div className="flex flex-col justify-center  text-center lg:text-left w-full translate-y-24 lg:translate-y-0 lg:ml-20">
             <h1
               data-aos="fade-down"
               data-aos-duration="1000"
@@ -86,14 +86,14 @@ function Banner() {
               data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-offset="200"
-              className="font-mono text-[2rem] sm:text-[3.4rem] lg:text-[3.5rem] font-extrabold text-[#58dfc3]"
+              className="font-mono text-[2rem] sm:text-[3rem] lg:text-[3.5rem] font-extrabold text-[#58dfc3]"
             >
               Fazid Samoon
             </h1>
 
             <h1
               id="app"
-              className="font-mono text-[1.2rem] sm:text-[2.5rem] lg:text-[3rem] font-extrabold opacity-40 translate-y-[10px]"
+              className="font-mono text-[1.2rem] sm:text-[2rem] lg:text-[3rem] font-extrabold opacity-40 translate-y-[10px]"
             >
               <TypeWriter
                 options={{

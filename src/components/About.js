@@ -127,7 +127,7 @@ function About() {
                   data-aos="fade-right"
                   data-aos-offset="300"
                   data-aos-duration="1000"
-                  className="text-gray-300 text-[12px] sm:text-[15px] md:text-[16px] md:max-w-[45rem]  font-bold ml-2 mt-5 lg:ml-8 lg:mt-14"
+                  className="text-gray-300 leading-7 text-[12px] sm:text-[15px] md:text-[16px] md:max-w-[45rem]  font-bold ml-2 mt-5 lg:ml-8 lg:mt-14"
                 >
                   I am Fazid Samoon, a motivated software engineering
                   undergraduate from Sri Lanka Institute of Information
