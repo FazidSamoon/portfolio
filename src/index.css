@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.skillsBorder{
+
+  box-shadow: 16px 14px 20px black;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.skillsBorder::before{
+  content: "";
+  background-image: conic-gradient(
+    #58dfc3 20deg,
+    transparent 120deg
+  );
+  width: 150%;
+  height: 150%;
+  position: absolute;
+  animation: rotate 2s linear infinite;
+}
+
+
+
+@keyframes rotate {
+  0%{
+    transform: rotate(0deg);
+  } 100%{
+    transform: rotate(360deg);
+  }
+}
+
