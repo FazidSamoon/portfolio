@@ -42,7 +42,7 @@ function Banner() {
               className="text-[#58dfc3] text-2xl font-bold my-2 mr-2"
             />
           </a>
-          <a href="www.linkedin.com/in/fazid-samoon">
+          <a href="linkedin.com/in/fazid-samoon-177356194/">
             <AiFillLinkedin
               data-aos="fade-down"
               data-aos-duration="1000"
@@ -58,7 +58,7 @@ function Banner() {
               className="text-[#58dfc3] text-2xl font-bold my-2 mr-2"
             />
           </a>
-          <a href="#">
+          <a href="https://www.instagram.com/fazid_samoon/">
             <FaInstagram
               data-aos="fade-down"
               data-aos-duration="1000"
