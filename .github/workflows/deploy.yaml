@@ -2,13 +2,13 @@ name: Deploy
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     env:
-      CI: false 
+      CI: false
     steps:
       - uses: actions/checkout@v2
 
@@ -18,10 +18,11 @@ jobs:
           node-version: 16
 
       - name: Install dependencies
-        run: npm install 
+        run: npm install
 
-      - name: Build project
-        run: npm run build
-
-      - name: Deploy
-        run: npm run deploy
+      - name: Deploy with gh-pages
+        run: |
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
