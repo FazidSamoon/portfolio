@@ -30,7 +30,7 @@ function Header() {
   }, []);
 
   return (
-    <div className="fixed flex flex-row w-screen h-[4rem] items-center justify-between z-50 mt-0">
+    <div className="fixed flex flex-row w-screen h-[4rem] items-center justify-between z-50 mt-0 ">
       <img
         data-aos="fade-down"
         data-aos-duration="1000"
@@ -40,7 +40,7 @@ function Header() {
         className="relative h-8 pl-6"
       />
 
-      <nav className=" flex items-center">
+      <nav className=" flex items-center z-50">
         <TiThMenu
           data-aos="fade-down"
           data-aos-duration="1000"
@@ -114,7 +114,7 @@ function Header() {
         <ul
           className={
             burgerNav
-              ? "flex-col flex items-center fixed inset-0 bottom-1/2 uppercase bg-[#58dfc3]/10 backdrop-blur-lg gap-4 justify-center p-8 md:hidden"
+              ? "flex-col flex items-center fixed inset-0 bottom-1/2 uppercase bg-[#58dfc3]/10 backdrop-blur-lg gap-4 justify-center p-8 md:hidden  "
               : "hidden"
           }
         >

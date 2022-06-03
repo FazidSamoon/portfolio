@@ -32,8 +32,7 @@ function Projects() {
 
             <div className=" max-w-[150px] lg:max-w-[280px] h-full opacity-70 flex items-center ml-2">
               <h1 className="text-[#58dfc3] font-mono text-[14px] lg:text-[18px] font-bold">
-                Front end view of the netflx has cloned using react , redux and
-                firebae.
+              Created a Netflix clone to show it's front end view using react, redux and firebase.
               </h1>
             </div>
           </div>
@@ -62,8 +61,7 @@ function Projects() {
 
             <div className=" max-w-[150px] lg:max-w-[280px] h-full opacity-70 flex items-center ml-2">
               <h1 className="text-[#58dfc3] font-mono text-[14px] lg:text-[18px] font-bold">
-                Front end view of the netflx has cloned using react , redux and
-                firebae.
+              Created a Netflix clone to show it's front end view using react, redux and firebase.
               </h1>
             </div>
           </div>
