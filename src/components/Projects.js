@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { projectDetais } from "../projectDetails";
+
 
 function Projects() {
   return (

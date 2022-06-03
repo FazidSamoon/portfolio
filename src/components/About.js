@@ -115,9 +115,9 @@ function About() {
             <div className="w-full h-full flex flex-col lg:flex-row justify-center lg:justify-between">
               <div className="  w-full lg:w-2/3 ">
                 <span
-                  // data-aos="fade-right"
-                  // data-aos-offset="200"
-                  // data-aos-duration="1000"
+                  data-aos="fade-right"
+                  data-aos-offset="200"
+                  data-aos-duration="1000"
                   className=" text-[14px] sm:text-[24px] md:text-[32px] font-medium text-[#58dfc3] ml-4 lg:ml-8"
                 >
                   HEY!
@@ -157,65 +157,42 @@ function About() {
           {show.skills && (
             <div className="w-full h-full py-10 pl-4 flex justify-center">
               <div
-              data-aos="fade-down"
-              data-aos-offset="200"
-              data-aos-duration="1000"
-              className=" grid grid-cols-2 grid-flow-row gap-14 lg:grid-cols-3 lg-gap-20">
-                <div
-                  
-                  className="h-14 w-14 sm:h-20 sm:w-20 md:h-28 md:w-28 flex items-center justify-center shadow-2xl"
-                >
+                data-aos="fade-down"
+                data-aos-offset="200"
+                data-aos-duration="1000"
+                className=" grid grid-cols-2 grid-flow-row gap-14 lg:grid-cols-3 lg-gap-20"
+              >
+                <div className="h-14 w-14 sm:h-20 sm:w-20 md:h-28 md:w-28 flex items-center justify-center shadow-2xl">
                   <div className="skillsBorder h-14 w-14 sm:h-20 sm:w-20 md:h-28 md:w-28 absolute z-0 "></div>
                   <SiJavascript className="text-5xl sm:text-6xl md:text-8xl font-KdamThmorPro text-[#58dfc3] bg-[#051630] z-10 hover:scale-110 transition-all ease-in-out duration-700" />
                 </div>
 
-                <div
-                  
-                  className="h-14 w-14 sm:h-20 sm:w-20 md:h-28 md:w-28 flex items-center justify-center shadow-2xl"
-                >
+                <div className="h-14 w-14 sm:h-20 sm:w-20 md:h-28 md:w-28 flex items-center justify-center shadow-2xl">
                   <div className="skillsBorder h-14 w-14 sm:h-20 sm:w-20 md:h-28 md:w-28 absolute z-0 "></div>
                   <FaJava className=" text-5xl sm:text-6xl md:text-8xl font-KdamThmorPro text-[#58dfc3] bg-[#051630] z-10 hover:scale-110 transition-all ease-in-out duration-700" />
                 </div>
 
-                <div
-                  
-                  className="h-14 w-14 sm:h-20 sm:w-20 md:h-28 md:w-28 flex items-center justify-center shadow-2xl"
-                >
+                <div className="h-14 w-14 sm:h-20 sm:w-20 md:h-28 md:w-28 flex items-center justify-center shadow-2xl">
                   <div className="skillsBorder h-14 w-14 sm:h-20 sm:w-20 md:h-28 md:w-28 absolute z-0 "></div>
                   <SiMysql className=" text-5xl sm:text-6xl md:text-8xl font-KdamThmorPro text-[#58dfc3] bg-[#051630] z-10 hover:scale-110 transition-all ease-in-out duration-700" />
                 </div>
 
-                <div
-                  
-                  className="h-14 w-14 sm:h-20 sm:w-20 md:h-28 md:w-28 flex items-center justify-center shadow-2xl"
-                >
-                  <div
-                    
-                    className="skillsBorder h-14 w-14 sm:h-20 sm:w-20 md:h-28 md:w-28 absolute z-0 "
-                  ></div>
+                <div className="h-14 w-14 sm:h-20 sm:w-20 md:h-28 md:w-28 flex items-center justify-center shadow-2xl">
+                  <div className="skillsBorder h-14 w-14 sm:h-20 sm:w-20 md:h-28 md:w-28 absolute z-0 "></div>
                   <SiTailwindcss className=" text-5xl sm:text-6xl md:text-8xl font-KdamThmorPro text-[#58dfc3] bg-[#051630] z-10 hover:scale-110 transition-all ease-in-out duration-700" />
                 </div>
 
-                <div
-                  
-                  className="h-14 w-14 sm:h-20 sm:w-20 md:h-28 md:w-28 flex items-center justify-center shadow-2xl"
-                >
+                <div className="h-14 w-14 sm:h-20 sm:w-20 md:h-28 md:w-28 flex items-center justify-center shadow-2xl">
                   <div className="skillsBorder h-14 w-14 sm:h-20 sm:w-20 md:h-28 md:w-28 absolute z-0 "></div>
                   <DiPhp className=" text-5xl sm:text-6xl md:text-8xl font-KdamThmorPro text-[#58dfc3] bg-[#051630] z-10 hover:scale-110 transition-all ease-in-out duration-700" />
                 </div>
 
-                <div
-                  
-                  className="h-14 w-14 sm:h-20 sm:w-20 md:h-28 md:w-28 flex items-center justify-center shadow-2xl"
-                >
+                <div className="h-14 w-14 sm:h-20 sm:w-20 md:h-28 md:w-28 flex items-center justify-center shadow-2xl">
                   <div className="skillsBorder h-14 w-14 sm:h-20 sm:w-20 md:h-28 md:w-28 absolute z-0 "></div>
                   <SiSpringboot className=" text-5xl sm:text-6xl md:text-8xl font-KdamThmorPro text-[#58dfc3] bg-[#051630] z-10 hover:scale-110 transition-all ease-in-out duration-700" />
                 </div>
 
-                <div
-                  
-                  className="h-14 w-14 sm:h-20 sm:w-20 md:h-28 md:w-28 flex items-center justify-center shadow-2xl"
-                >
+                <div className="h-14 w-14 sm:h-20 sm:w-20 md:h-28 md:w-28 flex items-center justify-center shadow-2xl">
                   <div className="skillsBorder h-14 w-14 sm:h-20 sm:w-20 md:h-28 md:w-28 absolute z-0 "></div>
                   <FaReact className=" text-5xl sm:text-6xl md:text-8xl font-KdamThmorPro text-[#58dfc3] bg-[#051630] z-10 hover:scale-110 transition-all ease-in-out duration-700" />
                 </div>

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Header from "./Header";
 import TypeWriter from "typewriter-effect";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
@@ -10,9 +10,7 @@ AOS.init();
 
 function Banner() {
   return (
-    <span
-    id="home"
-    >
+    <span id="home">
       <div className="banner bg-[#0a192f] h-screen w-screen flex justify-center">
         <Header />
 
@@ -71,9 +69,9 @@ function Banner() {
         <div className="flex flex-col w-screen h-full justify-center  z-10 sm:mt-11 ">
           <div className="flex flex-col justify-center  text-center lg:text-left w-full translate-y-24 lg:translate-y-0 lg:ml-20">
             <h1
-              // data-aos="fade-down"
-              // data-aos-duration="1000"
-              // data-aos-offset="100"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+              data-aos-offset="100"
               className="font-mono font-medium text-[1rem] sm:text-[1.5rem] lg:text-[1.5rem] xl:text-[3rem] text-gray-400"
             >
               Hello There! My name is
