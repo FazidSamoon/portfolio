@@ -127,7 +127,7 @@ function About() {
                   data-aos="fade-right"
                   data-aos-offset="300"
                   data-aos-duration="1000"
-                  className="text-gray-300 leading-7 text-[12px] sm:text-[15px] md:text-[16px] md:max-w-[45rem]  font-bold ml-2 mt-5 lg:ml-8 lg:mt-14"
+                  className="text-gray-300 leading-7 text-[12px] sm:text-[15px] md:text-[16px] xl:text-[22px] 2xl:text-[30px] xl:leading-9 2xl:leading-[60px] 2xl:tracking-wide	 md:max-w-[45rem] 2xl:max-w-[65rem]  font-bold ml-2 mt-5 lg:ml-8 lg:mt-14"
                 >
                   I am Fazid Samoon, a motivated software engineering
                   undergraduate from Sri Lanka Institute of Information
@@ -146,9 +146,9 @@ function About() {
                   data-aos="fade-left"
                   data-aos-offset="200"
                   data-aos-duration="1000"
-                  src="fazid.png"
+                  src="./portfolio/fazid.png"
                   alt=""
-                  className="h-[10rem] sm:h-[15rem] rounded-full lg:mt-14"
+                  className="h-[10rem] sm:h-[15rem] 2xl:h-[28rem] object-cover rounded-full lg:mt-14"
                 />
               </div>
             </div>
@@ -207,14 +207,14 @@ function About() {
                   data-aos="fade-right"
                   data-aos-offset="200"
                   data-aos-duration="1000"
-                  className=" font-semibold text-center text-[1rem] sm:text-[2rem] text-gray-400"
+                  className=" font-semibold text-center text-[1rem] sm:text-[2rem] 2xl:text-[3rem] text-gray-400"
                 >
-                  <span className=" text-xl sm:text-3xl font-KdamThmorPro text-[#58dfc3] items-center">
+                  <span className=" text-xl sm:text-3xl 2xl:text-5xl font-KdamThmorPro text-[#58dfc3] items-center">
                     "
                   </span>
                   Education is the most powerful weapon which you can use to
                   change the world
-                  <span className=" font-KdamThmorPro text-[#58dfc3] text-xl sm:text-3xl">
+                  <span className=" font-KdamThmorPro text-[#58dfc3] text-xl sm:text-3xl 2xl:text-5xl">
                     "
                   </span>
                 </h1>
@@ -226,12 +226,12 @@ function About() {
                     <tbody>
                       <tr>
                         <td>
-                          <h1 className="text-[10px] sm:text-[18px] text-gray-400 font-medium font-KdamThmorPro mr-2">
+                          <h1 className="text-[10px] sm:text-[18px] 2xl:text-[24px] text-gray-400 font-medium font-KdamThmorPro mr-2">
                             2010 - 2019
                           </h1>
                         </td>
                         <td>
-                          <h1 className="text-[16px] sm:text-[25px] text-[#58dfc3] font-medium font-KdamThmorPro">
+                          <h1 className="text-[16px] sm:text-[25px] 2xl:text-[34px] text-[#58dfc3] font-medium font-KdamThmorPro">
                             Isipathana College
                           </h1>
                         </td>
@@ -239,12 +239,12 @@ function About() {
 
                       <tr>
                         <td>
-                          <h1 className="text-[10px] sm:text-[18px] text-gray-400 font-medium font-KdamThmorPro mr-2">
+                          <h1 className="text-[10px] sm:text-[18px] 2xl:text-[24px] text-gray-400 font-medium font-KdamThmorPro mr-2">
                             2021 - Present
                           </h1>
                         </td>
                         <td>
-                          <h1 className="text-[16px] sm:text-[25px] text-[#58dfc3] font-medium font-KdamThmorPro">
+                          <h1 className="text-[16px] sm:text-[25px] 2xl:text-[34px] text-[#58dfc3] font-medium font-KdamThmorPro">
                             SLIIT
                           </h1>
                         </td>

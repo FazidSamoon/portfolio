@@ -30,14 +30,14 @@ function Header() {
   }, []);
 
   return (
-    <div className="fixed flex flex-row w-screen h-[4rem] items-center justify-between z-50 mt-0 ">
+    <div className="fixed flex flex-row w-screen h-[4rem] 2xl:h-[6rem] items-center justify-between z-50 mt-0 ">
       <img
         data-aos="fade-down"
         data-aos-duration="1000"
         data-aos-offset="100"
-        src="fazidlogo.png"
+        src="./portfolio/fazidlogo.png"
         alt=""
-        className="relative h-8 pl-6"
+        className="relative h-8 ml-6 2xl:h-12 2xl:w-12"
       />
 
       <nav className=" flex items-center z-50">
@@ -53,11 +53,12 @@ function Header() {
           data-aos="fade-down"
           data-aos-duration="1000"
           data-aos-offset="100"
-          className="hidden md:flex ">
+          className="hidden md:flex "
+        >
           <li>
             <a
               href="/"
-              className="text-[#ffffff] text-small mr-8 font-medium font-mono cursor-pointer hover:scale-x-110 hover:origin-top hover:-translate-y-1 hover:underline decoration-amber-800 decoration-4 underline-offset-4 transition-all ease-in-out duration-500"
+              className="text-[#ffffff] text-small 2xl:text-2xl mr-8 font-medium font-mono cursor-pointer hover:scale-x-110 hover:origin-top hover:-translate-y-1 hover:underline decoration-amber-800 decoration-4 underline-offset-4 transition-all ease-in-out duration-500"
               data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-offset="100"
@@ -68,7 +69,7 @@ function Header() {
           <li>
             <a
               href="#about"
-              className="text-[#ffffff] text-small mr-8 font-medium font-mono cursor-pointer hover:scale-x-110 hover:origin-top hover:-translate-y-1 hover:underline decoration-amber-800 decoration-4 underline-offset-4 transition-all ease-in-out duration-500"
+              className="text-[#ffffff] text-small 2xl:text-2xl mr-8 font-medium font-mono cursor-pointer hover:scale-x-110 hover:origin-top hover:-translate-y-1 hover:underline decoration-amber-800 decoration-4 underline-offset-4 transition-all ease-in-out duration-500"
               data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-offset="200"
@@ -79,7 +80,7 @@ function Header() {
           <li>
             <a
               href="/"
-              className="text-[#ffffff] text-small mr-8 font-medium font-mono cursor-pointer hover:scale-x-110 hover:origin-top hover:-translate-y-1 hover:underline decoration-amber-800 decoration-4 underline-offset-4 transition-all ease-in-out duration-500"
+              className="text-[#ffffff] text-small 2xl:text-2xl mr-8 font-medium font-mono cursor-pointer hover:scale-x-110 hover:origin-top hover:-translate-y-1 hover:underline decoration-amber-800 decoration-4 underline-offset-4 transition-all ease-in-out duration-500"
               data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-offset="300"
@@ -90,7 +91,7 @@ function Header() {
           <li>
             <a
               href="/"
-              className="text-[#ffffff] text-small mr-8 font-medium font-mono cursor-pointer hover:scale-x-110 hover:origin-top hover:-translate-y-1 hover:underline decoration-amber-800 decoration-4 underline-offset-4 transition-all ease-in-out duration-500"
+              className="text-[#ffffff] text-small 2xl:text-2xl mr-8 font-medium font-mono cursor-pointer hover:scale-x-110 hover:origin-top hover:-translate-y-1 hover:underline decoration-amber-800 decoration-4 underline-offset-4 transition-all ease-in-out duration-500"
               data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-offset="400"
@@ -101,7 +102,7 @@ function Header() {
           <li>
             <a
               href="/"
-              className="text-[#ffffff] text-small mr-8 font-medium font-mono cursor-pointer hover:scale-x-110 hover:origin-top hover:-translate-y-1 hover:underline decoration-amber-800 decoration-4 underline-offset-4 transition-all ease-in-out duration-500"
+              className="text-[#ffffff] text-small 2xl:text-2xl mr-8 font-medium font-mono cursor-pointer hover:scale-x-110 hover:origin-top hover:-translate-y-1 hover:underline decoration-amber-800 decoration-4 underline-offset-4 transition-all ease-in-out duration-500"
               data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-offset="500"
