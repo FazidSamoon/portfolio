@@ -40,7 +40,7 @@ function Banner() {
               className="text-[#58dfc3] text-2xl 2xl:text-4xl font-bold my-2 mr-2"
             />
           </a>
-          <a href="linkedin.com/in/fazid-samoon-177356194/">
+          <a href="https://www.linkedin.com/in/fazid-samoon-177356194/">
             <AiFillLinkedin
               data-aos="fade-down"
               data-aos-duration="1000"
