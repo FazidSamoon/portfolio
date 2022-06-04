@@ -57,7 +57,7 @@ function Header() {
         >
           <li>
             <a
-              href="/"
+              href="#home"
               className="text-[#ffffff] text-small 2xl:text-2xl mr-8 font-medium font-mono cursor-pointer hover:scale-x-110 hover:origin-top hover:-translate-y-1 hover:underline decoration-amber-800 decoration-4 underline-offset-4 transition-all ease-in-out duration-500"
               data-aos="fade-down"
               data-aos-duration="1000"
@@ -90,7 +90,7 @@ function Header() {
           </li>
           <li>
             <a
-              href="/"
+              href="#projects"
               className="text-[#ffffff] text-small 2xl:text-2xl mr-8 font-medium font-mono cursor-pointer hover:scale-x-110 hover:origin-top hover:-translate-y-1 hover:underline decoration-amber-800 decoration-4 underline-offset-4 transition-all ease-in-out duration-500"
               data-aos="fade-down"
               data-aos-duration="1000"
@@ -101,7 +101,7 @@ function Header() {
           </li>
           <li>
             <a
-              href="/"
+              href="#contact"
               className="text-[#ffffff] text-small 2xl:text-2xl mr-8 font-medium font-mono cursor-pointer hover:scale-x-110 hover:origin-top hover:-translate-y-1 hover:underline decoration-amber-800 decoration-4 underline-offset-4 transition-all ease-in-out duration-500"
               data-aos="fade-down"
               data-aos-duration="1000"
@@ -125,7 +125,7 @@ function Header() {
           />
           <li>
             <a
-              href="/"
+              href="#home"
               className="text-[#ffffff] text-small mr-8 font-medium font-mono cursor-pointer hover:scale-x-110 hover:origin-top hover:-translate-y-1 hover:underline decoration-amber-800 decoration-4 underline-offset-4 transition-all ease-in-out duration-500"
               data-aos="fade-down"
               data-aos-duration="1000"
