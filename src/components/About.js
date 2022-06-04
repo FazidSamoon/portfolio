@@ -74,7 +74,7 @@ function About() {
               data-aos-offset="100"
               className={`${
                 show.about ? "text-[#58dfc3] bg-[#547c74] " : "text-[#ffffff]"
-              } px-1 mr-4 rounded-sm text-[8px] sm:text-[14px] md:text-[18px] font-mono cursor-pointer hover:scale-x-110 hover:origin-top hover:-translate-y-1 transition-all ease-in-out duration-500`}
+              } px-1 mr-4 rounded-sm text-[11px] sm:text-[15px] md:text-[22px] lg:text-[28px] font-mono cursor-pointer hover:scale-x-110 hover:origin-top hover:-translate-y-1 transition-all ease-in-out duration-500`}
               onClick={activateHome}
             >
               <span className=" mr-2 py-2 text-[#58dfc3]">01.</span>ABOUT
@@ -86,7 +86,7 @@ function About() {
               data-aos-offset="200"
               className={`${
                 show.skills ? "text-[#58dfc3] bg-[#547c74] " : "text-[#ffffff]"
-              } px-1 mr-4 rounded-sm text-[8px] sm:text-[14px] md:text-[18px] font-mono cursor-pointer hover:scale-x-110 hover:origin-top hover:-translate-y-1 transition-all ease-in-out duration-500`}
+              } px-1 mr-4 rounded-sm text-[11px] sm:text-[15px] md:text-[22px] lg:text-[28px] font-mono cursor-pointer hover:scale-x-110 hover:origin-top hover:-translate-y-1 transition-all ease-in-out duration-500`}
               onClick={activateSkills}
             >
               <span className=" mr-2 text-[#58dfc3]">02.</span>SKILLS
@@ -100,7 +100,7 @@ function About() {
                 show.education
                   ? "text-[#58dfc3] bg-[#547c74] "
                   : "text-[#ffffff]"
-              } px-1 mr-4 rounded-sm text-[8px] sm:text-[14px] md:text-[18px] font-mono cursor-pointer hover:scale-x-110 hover:origin-top hover:-translate-y-1 transition-all ease-in-out duration-500`}
+              } px-1 mr-4 rounded-sm text-[11px] sm:text-[15px] md:text-[22px] lg:text-[28px] font-mono cursor-pointer hover:scale-x-110 hover:origin-top hover:-translate-y-1 transition-all ease-in-out duration-500`}
               onClick={activateEducation}
             >
               <span className=" mr-2 text-[#58dfc3]">03.</span>EDUCATION
@@ -127,7 +127,7 @@ function About() {
                   data-aos="fade-right"
                   data-aos-offset="300"
                   data-aos-duration="1000"
-                  className="text-gray-300 leading-7 text-[12px] sm:text-[15px] md:text-[16px] xl:text-[22px] 2xl:text-[30px] xl:leading-9 2xl:leading-[60px] 2xl:tracking-wide	 md:max-w-[45rem] 2xl:max-w-[65rem]  font-bold ml-2 mt-5 lg:ml-8 lg:mt-14"
+                  className="text-gray-300 leading-7 text-[12px] sm:text-[15px] md:text-[16px] xl:text-[22px] 2xl:text-[30px] xl:leading-9 2xl:leading-[60px] 2xl:tracking-wide	 md:max-w-[45rem] 2xl:max-w-[65rem]  font-bold ml-2 mt-5 lg:ml-8 lg:mt-14 px-4"
                 >
                   I am Fazid Samoon, a motivated software engineering
                   undergraduate from Sri Lanka Institute of Information
