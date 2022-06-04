@@ -146,7 +146,7 @@ function About() {
                   data-aos="fade-left"
                   data-aos-offset="200"
                   data-aos-duration="1000"
-                  src="./portfolio/fazid.png"
+                  src="fazid.png"
                   alt=""
                   className="h-[10rem] sm:h-[15rem] 2xl:h-[28rem] object-cover rounded-full lg:mt-14"
                 />

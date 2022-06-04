@@ -35,7 +35,7 @@ function Header() {
         data-aos="fade-down"
         data-aos-duration="1000"
         data-aos-offset="100"
-        src="./portfolio/fazidlogo.png"
+        src="fazidlogo.png"
         alt=""
         className="relative h-8 ml-6 2xl:h-12 2xl:w-12"
       />

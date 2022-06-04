@@ -15,7 +15,7 @@ function Projects() {
       >
         <div className=" h-[200px] w-[200px] sm:h-[300px] sm:w-[300px] lg:h-[400px] lg:w-[400px] 2xl:h-[500px] 2xl:w-[500px] mb-8 shadow-2xl">
           <img
-            src="./portfolio/project1.jpeg"
+            src="project1.jpeg"
             className="h-full w-full object-contain opacity-60 hover:scale-110 transition-all ease-in-out duration-1000"
           />
           <div className="absolute h-[200px] w-[200px] lg:h-[150px] lg:w-[340px] 2xl:w-[400px] 2xl:h-[200px] bg-[#051630] opacity-80 translate-y-[-12.6rem] translate-x-0 lg:translate-x-[15rem] lg:translate-y-[-20rem] lg:bg-[#0d336b]"></div>
@@ -45,7 +45,7 @@ function Projects() {
       >
         <div className=" h-[200px] w-[200px] sm:h-[300px] sm:w-[300px] lg:h-[400px] lg:w-[400px] 2xl:h-[500px] 2xl:w-[500px] mb-8 shadow-2xl">
           <img
-            src="./portfolio/project1.jpeg"
+            src="project1.jpeg"
             className="h-full w-full object-contain opacity-60 hover:scale-110 transition-all ease-in-out duration-1000"
           />
           <div className="absolute h-[200px] w-[200px] lg:h-[150px] lg:w-[340px] 2xl:w-[400px] 2xl:h-[200px] bg-[#051630] opacity-80 translate-y-[-12.6rem] translate-x-0 lg:translate-x-[-11rem] lg:translate-y-[-20rem] lg:bg-[#0d336b]"></div>
