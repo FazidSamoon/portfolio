@@ -63,7 +63,7 @@ function Header() {
               data-aos-duration="1000"
               data-aos-offset="100"
             >
-              <span className=" mr-2 text-[#58dfc3]">01.</span>HOME
+              HOME
             </a>
           </li>
           <li>
@@ -74,7 +74,7 @@ function Header() {
               data-aos-duration="1000"
               data-aos-offset="200"
             >
-              <span className=" mr-2 text-[#58dfc3]">02.</span>ABOUT
+              ABOUT
             </a>
           </li>
           <li>
@@ -85,7 +85,7 @@ function Header() {
               data-aos-duration="1000"
               data-aos-offset="300"
             >
-              <span className=" mr-2 text-[#58dfc3]">03.</span>EDUCATION
+              EDUCATION
             </a>
           </li>
           <li>
@@ -96,7 +96,7 @@ function Header() {
               data-aos-duration="1000"
               data-aos-offset="400"
             >
-              <span className=" mr-2 text-[#58dfc3]">04.</span>PROJECTS
+              PROJECTS
             </a>
           </li>
           <li>
@@ -107,7 +107,7 @@ function Header() {
               data-aos-duration="1000"
               data-aos-offset="500"
             >
-              <span className=" mr-2 text-[#58dfc3]">05.</span>CONTACT
+              CONTACT
             </a>
           </li>
         </ul>
@@ -131,7 +131,7 @@ function Header() {
               data-aos-duration="1000"
               data-aos-offset="100"
             >
-              <span className=" mr-2 text-[#58dfc3]">01.</span>HOME
+              HOME
             </a>
           </li>
           <li>
@@ -142,7 +142,7 @@ function Header() {
               data-aos-duration="1000"
               data-aos-offset="200"
             >
-              <span className=" mr-2 text-[#58dfc3]">02.</span>ABOUT
+              ABOUT
             </a>
           </li>
           <li>
@@ -153,7 +153,7 @@ function Header() {
               data-aos-duration="1000"
               data-aos-offset="300"
             >
-              <span className=" mr-2 text-[#58dfc3]">03.</span>EDUCATION
+              EDUCATION
             </a>
           </li>
           <li>
@@ -164,7 +164,7 @@ function Header() {
               data-aos-duration="1000"
               data-aos-offset="400"
             >
-              <span className=" mr-2 text-[#58dfc3]">04.</span>PROJECTS
+              PROJECTS
             </a>
           </li>
           {/* <li>
@@ -175,7 +175,7 @@ function Header() {
               data-aos-duration="1000"
               data-aos-offset="500"
             >
-              <span className=" mr-2 text-[#58dfc3]">05.</span>CONTACT
+              CONTACT
             </a>
           </li> */}
         </ul>
